@@ -6,3 +6,36 @@
 *, *:after, *:before {
   box-sizing: inherit;
 }
+#location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  h1 {
+    position: relative;
+    display: inline-flex;
+    margin-left: 1em;
+    color: #fff;
+    background-color: #555;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 2;
+  }
+  h5 {
+    position: relative;
+    display: inline-flex;
+    top: 20px;
+    left: -50px;
+    margin-left: 1em;
+    color: #fff;
+    background-color: rgba(16,46,68,0.6);
+    border-radius: 5px;
+    text-shadow: 0 0 5px #000;
+    padding: 10px;
+    z-index: 4;
+    &:hover {
+      background-color: rgb(16,46,68);
+    }
+  }
+}

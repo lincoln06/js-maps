@@ -14,6 +14,7 @@
     "sass-loader": "^13.2.2"
   },
   "dependencies": {
+    "leaflet": "^1.9.3",
     "normalize.css": "^8.0.1"
   }
 }
