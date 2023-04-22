@@ -14,7 +14,8 @@ export default () => {
         }).addTo(map);
         const marker = L.marker([54.4524299,17.0418873]).addTo(map);
 
-        marker.bindPopup("<b>Tutaj teraz jest Akademia</b><br>A od czerwca będzie Uniwersytet.");
+        marker.addEventListener('click',()=>{
+            marker.bindPopup("<b>Tutaj teraz jest Akademia</b><br>A od czerwca będzie Uniwersytet.")});
 
     }
 }
